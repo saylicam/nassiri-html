@@ -1,0 +1,247 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Love Ya Like A Sister', cursive;
+    background-color: #f8f8f8;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url('start-portfolio/start-portfolio/images/header.jpg');  */
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+    padding: 20px;
+    text-align: left;
+    z-index: 10;
+    background-repeat
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: right;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    z-index: -1; 
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    position: relative; 
+    z-index: 1; /
+}
+
+nav {
+    margin-top: 20px; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.fixed-image {
+    height: 80px; 
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 120px; 
+}
+
+.section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.section h2 {
+    color: #333;
+    text-align: center;
+}
+
+.section-content {
+    color: #333;
+    text-align: justify;
+}
+
+.folio .section-content {
+    
+}
+
+.logos .section-content {
+    
+}
+
+.services .section-content {
+    
+}
+
+
+.section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-row img {
+    width: calc(20% - 10px);  
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .image-row img {
+        width: calc(50% - 10px); 
+    }
+}
+
+.logos .section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logos .image-row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos .image-row img {
+    width: calc(20% - 10px); 
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logos .image-row img {
+        width: calc(50% - 10px); 
+    }
+}
+
+.services .section-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-column {
+    width: calc(33.33% - 20px); 
+    padding: 0 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .service-column {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.legal {
+    flex: 1;
+}
+
+.social-media {
+    flex: 1;
+}
+
+.back-to-top {
+    flex: 1;
+}
+
+.social-icon {
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.social-icon:hover {
+    color: #55acee; 
+}
